@@ -1,0 +1,35 @@
+body {
+  position:relative;
+  box-sizing: border-box;
+  font-family: 'Tangerine', cursive;
+}
+
+#home {
+  background-color: #FFFDD0;
+}
+
+#slide {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 100%;
+  /*padding: 10px;*/
+}
+
+#logo-img {
+  background: url('../images/logo.jpg') no-repeat;
+  border-radius: 50%;
+  width: 100px;
+  height: 75px;
+  margin: 10px 15px 10px 0;
+}
+
+#heads {
+  font-size: 2.3em;
+}
+
+/*
+Write a sheii script to highiight the two consecutie digits with “<>”
+eg.  12abc ab12c 
+Output: <12>abc ab12c
+*/
