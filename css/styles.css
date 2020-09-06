@@ -5,7 +5,6 @@
 body {
   position:relative;
   box-sizing: border-box;
-  font-family: 'Tangerine', cursive;
 }
 
 #slide {
@@ -25,8 +24,24 @@ body {
 
 #heads {
   font-size: 2.3em;
+  font-family: 'Tangerine', cursive;
 }
 
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  /*top: 0px;*/
+  /*background-color: yellow;*/
+  /*padding: 50px;*/
+  /*font-size: 20px;*/
+  z-index:-1;
+}
+
+.set-pos{
+  position: relative;
+  z-index: 3;
+  background: white;
+}
 
 .mySlides {
   display: none;
@@ -92,12 +107,12 @@ img {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: 0.4} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: 0.4} 
   to {opacity: 1}
 }
 
