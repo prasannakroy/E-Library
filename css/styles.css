@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: 'Tangerine', cursive;
 }
 
 body {
@@ -25,6 +24,7 @@ body {
 
 #heads {
   font-size: 2.3em;
+  font-family: 'Tangerine', cursive;
 }
 
 .sticky {
