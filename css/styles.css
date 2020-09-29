@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Tangerine', cursive;
 }
 
 body {
@@ -24,16 +25,11 @@ body {
 
 #heads {
   font-size: 2.3em;
-  font-family: 'Tangerine', cursive;
 }
 
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  /*top: 0px;*/
-  /*background-color: yellow;*/
-  /*padding: 50px;*/
-  /*font-size: 20px;*/
   z-index:-1;
 }
 
@@ -61,11 +57,6 @@ img {
   top: 100px;
   height: 500px;
   margin: auto;
-}
-
-#slide-pic {
-  /*width: 658px; */
-  /*height: 450px;*/
 }
 
 /* Caption text */
@@ -103,23 +94,72 @@ img {
   background-color: #717171;
 }
 
-/* Fading animation */
-/* .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+/*Genres*/
+
+.genre {
+  margin:auto;
+  border: 5px solid white;
+  text-align:center;
+  padding: 10px 0;
+  height: 70px;
+  font-size: 30px;
+  color: #FFFFFF;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: 0.4} 
-  to {opacity: 1}
+#thriller {
+  background-color: #7C807F;
 }
 
-@keyframes fade {
-  from {opacity: 0.4} 
-  to {opacity: 1}
-} */
+#adventure {
+  background-color: #F74013;
+}
+
+#Romance {
+  background-color: #CF2960;
+}
+
+#Tragedy {
+  background-color: #CF7429;
+}
+
+#Comedy {
+  background-color: #4491B8;
+}
+
+#Biographies {
+  background-color: #B5D621;
+}
+
+#Science {
+  background-color: #CAAC1A;
+}
+
+#Children {
+  background-color: #3DD517;
+}
+
+#Poetry {
+  background-color: #EA75AB;
+}
+
+/*Authors*/
+
+.authors {
+  font-size: 30px;
+  padding: 10px;
+  border: 5px solid white;
+  background-color: cyan;
+}
+
+figcaption {
+  font-size: 30px;
+  background-color: white;
+  color: blue;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
