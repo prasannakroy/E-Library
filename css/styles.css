@@ -97,6 +97,7 @@ img {
 /*Genres*/
 
 .genre {
+  font-family: 'Tangerine', cursive;
   margin:auto;
   border: 5px solid white;
   text-align:center;
@@ -145,6 +146,7 @@ img {
 /*Authors*/
 
 .authors {
+  font-family: 'Tangerine', cursive;
   font-size: 30px;
   padding: 10px;
   border: 5px solid white;
