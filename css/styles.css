@@ -11,19 +11,6 @@ body {
   background-color: white;
 }
 
-.centre {
-  text-align: center;
-}
-
-.hng {
-  height: 70px;
-  border : 5px solid white;
-  font-size: 3.5em;
-  border-radius: 50%;
-  background-color: yellow;
-  font-family: 'Tangerine', cursive;
-}
-
 #slide {
   position: absolute;
   margin-left: auto;
@@ -111,6 +98,20 @@ img {
 
 .active {
   background-color: #717171;
+}
+
+
+.centre {
+  text-align: center;
+}
+
+.hng {
+  height: 70px;
+  border : 5px solid white;
+  font-size: 3.5em;
+  border-radius: 50%;
+  background-color: yellow;
+  font-family: 'Tangerine', cursive;
 }
 
 /*Genres*/
