@@ -5,10 +5,11 @@
 body {
   position:relative;
   box-sizing: border-box;
+  background-color: #EEFBFF;
 }
 
 .main {
-  background-color: white;
+  background-color: #EEFBFF;
 }
 
 #slide {
@@ -110,7 +111,7 @@ img {
   border : 5px solid white;
   font-size: 50px;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: #EEEEEE;
   font-family: 'Tangerine', cursive;
 }
 
@@ -124,43 +125,43 @@ img {
   padding: 10px 0;
   height: 70px;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #263557;
 }
 
 #thriller {
-  background-color: #7C807F;
+  background-color: #EEEEEE;
 }
 
 #adventure {
-  background-color: #F74013;
+  background-color: #EEEEEE;
 }
 
 #Romance {
-  background-color: #CF2960;
+  background-color: #EEEEEE;
 }
 
 #Tragedy {
-  background-color: #CF7429;
+  background-color: #EEEEEE;
 }
 
 #Comedy {
-  background-color: #4491B8;
+  background-color: #EEEEEE;
 }
 
 #Biographies {
-  background-color: #B5D621;
+  background-color: #EEEEEE;
 }
 
 #Science {
-  background-color: #CAAC1A;
+  background-color: #EEEEEE;
 }
 
 #Children {
-  background-color: #3DD517;
+  background-color: #EEEEEE;
 }
 
 #Poetry {
-  background-color: #EA75AB;
+  background-color: #EEEEEE;
 }
 
 /*Authors*/
@@ -170,7 +171,7 @@ img {
   font-size: 30px;
   padding: 10px;
   border: 5px solid white;
-  background-color: cyan;
+  background-color: #EEEEEE;
 }
 
 figcaption {
