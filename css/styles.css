@@ -212,6 +212,7 @@ img {
 figcaption {
   font-size: 30px;
   background-color: white;
+  border-radius: 20px;
   color: blue;
   font-style: italic;
   padding: 2px;
