@@ -27,6 +27,36 @@ body {
   margin: 10px 15px 10px 0;
 }
 
+#header-nav {
+  font-family: 'Tangerine', cursive;
+  background-color: #FFF;
+}
+
+#login {
+  width: 15%;
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  margin-top: 3%;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  float: right;
+  color: #FFF;
+  background-color: #1D2542;
+  font-size: 2em;
+}
+
+#login:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#login:active {
+  background-color:#1D2542;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 #heads {
   font-size: 2.3em;
   font-family: 'Tangerine', cursive;
@@ -36,12 +66,6 @@ body {
   position: -webkit-sticky;
   position: sticky;
   z-index:-1;
-}
-
-.set-pos{
-  position: relative;
-  z-index: 3;
-  background: white;
 }
 
 .mySlides {
@@ -115,6 +139,10 @@ img {
   font-family: 'Tangerine', cursive;
 }
 
+#part2 {
+  padding-top: 5%;
+}
+
 /*Genres*/
 
 .genre {
@@ -171,6 +199,7 @@ img {
   font-size: 30px;
   padding: 10px;
   border: 5px solid white;
+  border-radius: 15px;
   background-color: #EEEEEE;
 }
 

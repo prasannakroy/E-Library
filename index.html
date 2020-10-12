@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-	<title>The E-Lib</title>
+	<title>The Dusty Shelf</title>
 </head>
 
 <body>
@@ -26,8 +26,13 @@
 						</a>
 					</div>
 				</div>
-			</div><!-- .container -->
-		</nav><!-- #header-nav -->
+				<div class="collapse navbar-collapse">
+					<button id="login" type="button" onclick="document.location='login.html'" class="nav navbar-nav navbar-right">
+						Login/SignUp
+					</button>
+				</div>
+			</div>
+		</nav> 
 	</header>
 	<div class="slideshow-container sticky">
 		<div class="mySlides">
@@ -52,8 +57,8 @@
 		<span class="dot"></span>
 		<span class="dot"></span>
 	</div>
-	<div class="main">
-		<div class="container-fluid row set-pos">
+	<div id="part1" class="main">
+		<div class="container-fluid">
 			<div id="hng" class="centre">Popular Geners</div>
 			<div id="thriller" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
 				<p>Thriller</p>
@@ -83,7 +88,7 @@
 				<p>Poetry</p>
 			</div>
 		</div>
-		<div>
+		<div id="part2" class="container-fluid">
 			<div id="hng" class="centre">Immortal Pens</div>
 			<div id="Shakespeare" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
 				<img id="author" alt="William Shakespeare" src="images/Shakespeare.png">
