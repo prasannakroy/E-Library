@@ -36,6 +36,14 @@ body {
   margin-top: 20px;
 }
 
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
 #login {
   margin-top: 20px;
   width: 100%;
