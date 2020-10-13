@@ -32,8 +32,13 @@ body {
   background-color: #FFF;
 }
 
+.navbar-brand {
+  margin-top: 20px;
+}
+
 #login {
-  width: 15%;
+  margin-top: 20px;
+  width: 100%;
   border: none;
   border-radius: 25px;
   height: 50px;
@@ -41,7 +46,6 @@ body {
   cursor: pointer;
   text-align: center;
   outline: none;
-  float: right;
   color: #FFF;
   background-color: #1D2542;
   font-size: 2em;

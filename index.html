@@ -6,6 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
@@ -14,10 +16,10 @@
 
 <body>
 	<header>
-		<nav id="header-nav" class="navbar navbar-default">
+		<nav id="header-nav" class="navbar">
 			<div class="container">
-				<div class="navbar-header">
-					<a href="index.html" class="pull-left visible-md visible-lg">
+				<div class="row">
+					<a href="index.html" class="float-left d-none d-lg-block">
 						<div id="logo-img"></div>
 					</a>
 					<div class="navbar-brand">
@@ -26,8 +28,8 @@
 						</a>
 					</div>
 				</div>
-				<div class="collapse navbar-collapse">
-					<button id="login" type="button" onclick="document.location='login.html'" class="nav navbar-nav navbar-right">
+				<div class="navbar float-right">
+					<button id="login" type="button" onclick="document.location='login.html'" class="float-right">
 						Login/SignUp
 					</button>
 				</div>
@@ -60,59 +62,63 @@
 	<div id="part1" class="main">
 		<div class="container-fluid">
 			<div id="hng" class="centre">Popular Geners</div>
-			<div id="thriller" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
-				<p>Thriller</p>
-			</div>
-			<div id="adventure" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
-				<p>Adventure</p>
-			</div>
-			<div id="Romance" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
-				<p>Romance</p>
-			</div>
-			<div id="Tragedy" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
-				<p>Tragedy</p>
-			</div>
-			<div id="Comedy" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
-				<p>Comedy</p>
-			</div>
-			<div id="Biographies" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
-				<p>Biographies/Memoirs</p>
-			</div>
-			<div id="Science" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
-				<p>Science-Fiction</p>
-			</div>
-			<div id="Children" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
-				<p>Children-Books</p>
-			</div>
-			<div id="Poetry" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
-				<p>Poetry</p>
+			<div class="row">
+				<div id="thriller" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+					<p>Thriller</p>
+				</div>
+				<div id="adventure" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+					<p>Adventure</p>
+				</div>
+				<div id="Romance" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+					<p>Romance</p>
+				</div>
+				<div id="Tragedy" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+					<p>Tragedy</p>
+				</div>
+				<div id="Comedy" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+					<p>Comedy</p>
+				</div>
+				<div id="Biographies" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+					<p>Biographies/Memoirs</p>
+				</div>
+				<div id="Science" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+					<p>Science-Fiction</p>
+				</div>
+				<div id="Children" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+					<p>Children-Books</p>
+				</div>
+				<div id="Poetry" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+					<p>Poetry</p>
+				</div>
 			</div>
 		</div>
 		<div id="part2" class="container-fluid">
 			<div id="hng" class="centre">Immortal Pens</div>
-			<div id="Shakespeare" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-				<img id="author" alt="William Shakespeare" src="images/Shakespeare.png">
-				<figcaption>William Shakespeare</figcaption>
-			</div>
-			<div id="Wordsworth" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-				<img id="author" alt="William Wordsworth" src="images/Wordsworth.jpg">
-				<figcaption>William Wordsworth</figcaption>
-			</div>
-			<div id="Austen" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-				<img id="author" alt="Jane Austen" src="images/Austen.jpg">
-				<figcaption>Jane Austen</figcaption>
-			</div>
-			<div id="Doyle" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-				<img id="author" alt="Sir Aurthor Conan Doyle" src="images/Doyle.jpg">
-				<figcaption>Sir Aurthor Conan Doyle</figcaption>
-			</div>
-			<div id="Dickens" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-				<img id="author" alt="Charles Dickens" src="images/Dickens.jpg">
-				<figcaption>Charles Dickens</figcaption>
-			</div>
-			<div id="Stevenson" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-				<img id="author" alt="R. L. Stevenson" src="images/Stevenson.jpg">
-				<figcaption>R. L. Stevenson</figcaption>
+			<div class="row">
+				<div id="Shakespeare" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
+					<img id="author" alt="William Shakespeare" src="images/Shakespeare.png">
+					<figcaption>William Shakespeare</figcaption>
+				</div>
+				<div id="Wordsworth" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
+					<img id="author" alt="William Wordsworth" src="images/Wordsworth.jpg">
+					<figcaption>William Wordsworth</figcaption>
+				</div>
+				<div id="Austen" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
+					<img id="author" alt="Jane Austen" src="images/Austen.jpg">
+					<figcaption>Jane Austen</figcaption>
+				</div>
+				<div id="Doyle" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
+					<img id="author" alt="Sir Aurthor Conan Doyle" src="images/Doyle.jpg">
+					<figcaption>Sir Aurthor Conan Doyle</figcaption>
+				</div>
+				<div id="Dickens" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
+					<img id="author" alt="Charles Dickens" src="images/Dickens.jpg">
+					<figcaption>Charles Dickens</figcaption>
+				</div>
+				<div id="Stevenson" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
+					<img id="author" alt="R. L. Stevenson" src="images/Stevenson.jpg">
+					<figcaption>R. L. Stevenson</figcaption>
+				</div>
 			</div>
 		</div>
 	</div>
