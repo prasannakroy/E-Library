@@ -45,12 +45,9 @@ body {
 }
 
 #login {
-  margin-top: 20px;
   width: 100%;
   border: none;
-  border-radius: 25px;
-  height: 50px;
-  margin-top: 3%;
+  border-radius: 35px;
   cursor: pointer;
   text-align: center;
   outline: none;
@@ -68,6 +65,88 @@ body {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+#lvl1 {
+  margin: auto;
+  background-color: #1B7DA5;
+  color: white;
+  height: 50%;
+}
+
+#lvl2 {
+  width: 50%;
+}
+
+#modalLogin {
+  text-align: center;
+  color: #091C44;
+  font-size: 30px;
+}
+
+.modal-c-tabs {
+  background-color: #EEEEEE;
+}
+
+#modalBody {
+  background-color: #FFF;
+}
+
+#modalBody2 {
+  background-color: #FFF;
+}
+
+#modalLRInput10 {
+  background-color:#EEEEEE;
+  color: #091C44;
+  font-size: 1.5em;
+}
+
+#modalLRInput11 {
+  background-color:#EEEEEE;
+  color: #091C44;
+  font-size: 1.5em;
+}
+
+#modalLRInput12 {
+  background-color:#EEEEEE;
+  color: #091C44;
+  font-size: 1.5em;
+}
+
+#modalLRInput13 {
+  background-color:#EEEEEE;
+  color: #091C44;
+  font-size: 1.5em;
+}
+
+#modalLRInput14 {
+  background-color:#EEEEEE;
+  color: #091C44;
+  font-size: 1.5em;
+}
+
+#logfoot {
+  color: #091C44;
+  font-size: 1.2em;
+  background-color:#EEEEEE;
+}
+
+#but2 {
+  width: 40%;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #FFF;
+  background-color: #1A97A9;
+  font-size: 1.2em;
+}
+
+#modal-body2 {
+
+}
+
 
 #heads {
   font-size: 2.3em;
