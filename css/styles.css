@@ -253,12 +253,12 @@ img {
   font-family: 'Tangerine', cursive;
   font-size: 30px;
   padding: 10px;
-  border: 5px solid white;
-  border-radius: 15px;
+  border: 10px solid white;
   background-color: #EEEEEE;
 }
 
 #author {
+  border-radius: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
