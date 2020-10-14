@@ -227,7 +227,11 @@ img {
 }
 
 #part2 {
-  padding-top: 5%;
+  padding-top: 7%;
+}
+
+#part3 {
+  background-color: #EEEEEE;
 }
 
 /*Genres*/
@@ -241,42 +245,6 @@ img {
   height: 70px;
   font-size: 30px;
   color: #263557;
-}
-
-#thriller {
-  background-color: #EEEEEE;
-}
-
-#adventure {
-  background-color: #EEEEEE;
-}
-
-#Romance {
-  background-color: #EEEEEE;
-}
-
-#Tragedy {
-  background-color: #EEEEEE;
-}
-
-#Comedy {
-  background-color: #EEEEEE;
-}
-
-#Biographies {
-  background-color: #EEEEEE;
-}
-
-#Science {
-  background-color: #EEEEEE;
-}
-
-#Children {
-  background-color: #EEEEEE;
-}
-
-#Poetry {
-  background-color: #EEEEEE;
 }
 
 /*Authors*/
