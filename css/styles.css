@@ -309,8 +309,8 @@ img {
 /*Part 3*/
 
 .scrolling-wrapper{
-	overflow-x: auto;
-}
+    overflow-x: auto;
+  }
 
 .bookBox{
   font-family: 'IM Fell French Canon', serif;
@@ -348,8 +348,15 @@ img {
   border-radius: 10px;
   width: 100%;
   margin: auto;
+	background-position: center;
+  transition: all 0.2s ease-in-out !important;
   font-size: 1.3em;
   text-align: center;
+}
+
+.SeeAll:hover {
+  transform: translateY(-5px);
+  box-shadow: none;
 }
 
 /*/part 3*/
