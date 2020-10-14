@@ -36,13 +36,6 @@ body {
   margin-top: 20px;
 }
 
-/* .pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
-} */
 
 #login {
   width: 100%;
@@ -277,13 +270,14 @@ img {
 /*Part 3*/
 
 .scrolling-wrapper{
-    overflow-x: auto;
-  }
+  overflow-x: auto;
+}
 
 .bookBox{
   font-family: 'IM Fell French Canon', serif;
-  margin: 20px;
+  margin: 2%;
   height: 350px;
+  max-width: 100%;
 	background-color: #EEFBFF;
 	background-position: center;
   transition: all 0.2s ease-in-out !important;
