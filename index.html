@@ -8,11 +8,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@1&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 	<title>The Dusty Shelf</title>
 </head>
 
 <body>
+	<!-- Header -->
 	<header>
 		<nav id="header-nav" class="navbar">
 			<div class="container">
@@ -128,25 +130,27 @@
 			</div>
 		</nav> 
 	</header>
+	<!-- /Header -->
+	<!--Slideshow-->
 	<div class="slideshow-container sticky">
 		<div class="mySlides">
 			<div class="numbertext">1 / 4</div>
-			<img id="slide-pic" src="images/MerchantofVanice.jpg">
+			<img id="slide-pic" src="images/Covers/MerchantofVanice.jpg">
 			<div class="text"></div>
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">2 / 4</div>
-			<img id="slide-pic" src="images/ChristmasCarol.jpg">
+			<img id="slide-pic" src="images/Covers/ChristmasCarol.jpg">
 			<div class="text"></div>
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">3 / 4</div>
-			<img id="slide-pic" src="images/WutheringHeights.jpg">
+			<img id="slide-pic" src="images/Covers/WutheringHeights.jpg">
 			<div class="text"></div>
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">4 / 4</div>
-			<img id="slide-pic" src="images/DorianGray.jpg">
+			<img id="slide-pic" src="images/Covers/DorianGray.jpg">
 			<div class="text"></div>
 		</div>
 	</div>
@@ -157,6 +161,8 @@
 		<span class="dot"></span>
 		<span class="dot"></span>
 	</div>
+	<!--/Slideshow-->
+	<!--Body-->
 	<div id="part1" class="main">
 		<div class="container-fluid">
 			<div id="hng" class="centre">Popular Geners</div>
@@ -194,32 +200,86 @@
 			<div id="hng" class="centre">Immortal Pens</div>
 			<div class="row">
 				<div id="Shakespeare" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="William Shakespeare" src="images/Shakespeare.png">
-					<figcaption>William Shakespeare</figcaption>
+					<img id="author" alt="William Shakespeare" src="images/Authors/Shakespeare.png">
+					<figcaption id="p2">William Shakespeare</figcaption>
 				</div>
 				<div id="Wordsworth" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="William Wordsworth" src="images/Wordsworth.jpg">
-					<figcaption>William Wordsworth</figcaption>
+					<img id="author" alt="William Wordsworth" src="images/Authors/Wordsworth.jpg">
+					<figcaption id="p2">William Wordsworth</figcaption>
 				</div>
 				<div id="Austen" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="Jane Austen" src="images/Austen.jpg">
-					<figcaption>Jane Austen</figcaption>
+					<img id="author" alt="Jane Austen" src="images/Authors/Austen.jpg">
+					<figcaption id="p2">Jane Austen</figcaption>
 				</div>
 				<div id="Doyle" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="Sir Aurthor Conan Doyle" src="images/Doyle.jpg">
-					<figcaption>Sir Aurthor Conan Doyle</figcaption>
+					<img id="author" alt="Sir Aurthor Conan Doyle" src="images/Authors/Doyle.jpg">
+					<figcaption id="p2">Sir Aurthor Conan Doyle</figcaption>
 				</div>
 				<div id="Dickens" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="Charles Dickens" src="images/Dickens.jpg">
-					<figcaption>Charles Dickens</figcaption>
+					<img id="author" alt="Charles Dickens" src="images/Authors/Dickens.jpg">
+					<figcaption id="p2">Charles Dickens</figcaption>
 				</div>
 				<div id="Stevenson" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="R. L. Stevenson" src="images/Stevenson.jpg">
-					<figcaption>R. L. Stevenson</figcaption>
+					<img id="author" alt="R. L. Stevenson" src="images/Authors/Stevenson.jpg">
+					<figcaption id="p2">R. L. Stevenson</figcaption>
 				</div>
 			</div>
 		</div>
+		<div id="part2" class="container-fluid">
+			<div id="hng" class="centre">Popular Reads</div>
+			<div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4">
+				<div class="col-2 bookBox">
+					<img id="book" alt="Romeo & Juliet" src="images/Books/Romeo&Juliet.jpg">
+					<figcaption id="p3">Romeo & Juiet</figcaption>
+				</div>
+				<div class="col-2 bookBox">
+					<img id="book" alt="Oliver Twist" src="images/Books/OliverTwist.jpg">
+					<figcaption id="p3">Oliver Twist</figcaption>
+				</div>
+				<div class="col-2 bookBox">
+					<img id="book" alt="The Great Gatsby" src="images/Books/GreatGatsby.jpg">
+					<figcaption id="p3">The Great Gatsby</figcaption>
+				</div>
+				<div class="col-2 bookBox">
+					<img id="book" alt="The Hounds of Baskerville" src="images/Books/HoundOfBaskerville.jpg">
+					<figcaption id="p3">The Hounds of Baskerville</figcaption>
+				</div>
+				<div class="col-2 bookBox">
+					<img id="book" alt="jane Eyre" src="images/Books/JaneEyre.jpg">
+					<figcaption id="p3">Jane Eyre</figcaption>
+				</div>
+				<div class="col-2 bookBox">
+					<img id="book" alt="The Adventures of Tome Sawyer" src="images/Books/TomSawyer.jpg">
+					<figcaption id="p3">The Adventures of Tome Sawyer</figcaption>
+				</div>
+				<div class="col-2 bookBox">
+					<img id="book" alt="Illiad" src="images/Books/Illiad.jpg">
+					<figcaption id="p3">Illiad</figcaption>
+				</div>
+				<div class="col-2 bookBox">
+					<img id="book" alt="Hamlet" src="images/Books/Hamlet.jpg">
+					<figcaption id="p3">Hamlet</figcaption>
+				</div>
+				<div class="col-2 bookBox">
+					<img id="book" alt="Frankenstein" src="images/Books/Frankenstein.jpg">
+					<figcaption id="p3">Frankenstein</figcaption>
+				</div>
+				<div class="col-2 bookBox">
+					<img id="book" alt="The Three Muskteers" src="images/Books/Muskteers.jpg">
+					<figcaption id="p3">The Three Muskteers</figcaption>
+				</div>
+				<div class="col-2 SeeAll">
+					<div>See All</div>
+				</div>
+    		</div>
+		</div>
 	</div>
+	<!--/Body-->
+	<!-- Footer-->
+	<footer>
+		<h2>This is footer</h2>
+	</footer>
+	<!--/Footer-->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

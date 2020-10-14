@@ -67,6 +67,7 @@ body {
 }
 
 #lvl1 {
+  font-family: 'IM Fell French Canon', serif;
   margin: auto;
   background-color: #1B7DA5;
   color: white;
@@ -98,31 +99,31 @@ body {
 #modalLRInput10 {
   background-color:#EEEEEE;
   color: #091C44;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 #modalLRInput11 {
   background-color:#EEEEEE;
   color: #091C44;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 #modalLRInput12 {
   background-color:#EEEEEE;
   color: #091C44;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 #modalLRInput13 {
   background-color:#EEEEEE;
   color: #091C44;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 #modalLRInput14 {
   background-color:#EEEEEE;
   color: #091C44;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 #logfoot {
@@ -295,8 +296,8 @@ img {
   margin-right: auto;
 }
 
-figcaption {
-  font-size: 30px;
+#p2 {
+  font-size: 1em;
   background-color: white;
   border-radius: 20px;
   color: blue;
@@ -304,6 +305,60 @@ figcaption {
   padding: 2px;
   text-align: center;
 }
+
+/*Part 3*/
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+.bookBox{
+  font-family: 'IM Fell French Canon', serif;
+  margin: 20px;
+  height: 350px;
+	background-color: #EEFBFF;
+	background-position: center;
+  transition: all 0.2s ease-in-out !important;
+	border-radius: 24px;
+}
+
+#book {
+  border: solid 2px #F9F500;
+  border-radius: 10px;
+}
+
+.bookBox:hover {
+  transform: translateY(-5px);
+  box-shadow: none;
+}
+
+#p3 {
+  font-size: 1em;
+  background-color: #FFF;
+  color: blue;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+.SeeAll {
+  font-family: 'IM Fell French Canon', serif;
+  border: solid 2px #F9F500;
+  background-color: #FFF;
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+/*/part 3*/
+
+/*Footer*/
+
+
+
+/*/footer*/
 
 
 /* On smaller screens, decrease text size */
