@@ -32,17 +32,17 @@
 					<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						<div class="modal-dialog cascading-modal" role="document">
 						  <!--Content-->
-							<div id="lvl1" class="modal-content">
+							<div class="modal-content lvl1">
 								<!--Modal cascading tabs-->
 								<div class="modal-c-tabs">
 						
 									<!-- Nav tabs -->
 									<ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
-										<li id="lvl2" class="nav-item">
-											<a id="modalLogin" class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>Login</a>
+										<li class="nav-item lvl2">
+											<a class="nav-link active modalLogin" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>Login</a>
 										</li>
-										<li id="lvl2" class="nav-item">
-											<a id="modalLogin" class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>Register</a>
+										<li class="nav-item lvl2">
+											<a class="nav-link modalLogin" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>Register</a>
 										</li>
 									</ul>
 						
@@ -55,26 +55,26 @@
 											<div id="modalBody" class="modal-body mb-1">
 												<div class="md-form form-sm mb-5">
 													<i class="fas fa-envelope prefix"></i>
-													<input type="email" id="modalLRInput10" placeholder="Enter Email" class="form-control form-control-sm validate">
+													<input type="email" id="modalLRInput10" placeholder="Enter Email" class="form-control form-control-sm validate inputBox">
 													<label data-error="wrong" data-success="right" for="modalLRInput10"></label>
 												</div>
 								
 												<div class="md-form form-sm mb-4">
 													<i class="fas fa-lock prefix"></i>
-													<input type="password" id="modalLRInput11" placeholder="Enter Password" class="form-control form-control-sm validate">
+													<input type="password" id="modalLRInput11" placeholder="Enter Password" class="form-control form-control-sm validate inputBox">
 													<label data-error="wrong" data-success="right" for="modalLRInput11"></label>
 												</div>
 												<div class="text-center mt-2">
-												<button id="login" class="btn btn-info">Log in <i class="fas fa-sign-in ml-1"></i></button>
+												<button id="login" class="btn btn-info join">Log in <i class="fas fa-sign-in ml-1"></i></button>
 												</div>
 											</div>
 											<!--Footer-->
-											<div id="logfoot" class="modal-footer">
+											<div class="modal-footer logfoot">
 												<div class="options text-center text-md-right mt-1">
 												<p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
 												<p>Forgot <a href="#" class="blue-text">Password?</a></p>
 												</div>
-												<button id="but2" type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-outline-info waves-effect ml-auto but2" data-dismiss="modal">Close</button>
 											</div>
 							
 										</div>
@@ -87,33 +87,33 @@
 											<div id="modalBody2" class="modal-body mb-1">
 												<div class="md-form form-sm mb-5">
 													<i class="fas fa-envelope prefix"></i>
-													<input type="email" id="modalLRInput12" placeholder="Enter Your Email" class="form-control form-control-sm validate">
+													<input type="email" id="modalLRInput12" placeholder="Enter Your Email" class="form-control form-control-sm validate inputBox">
 													<label data-error="wrong" data-success="right" for="modalLRInput12"></label>
 												</div>
 								
 												<div class="md-form form-sm mb-5">
 												<i class="fas fa-lock prefix"></i>
-												<input type="password" id="modalLRInput13" placeholder="Enter Your Password" class="form-control form-control-sm validate">
+												<input type="password" id="modalLRInput13" placeholder="Enter Your Password" class="form-control form-control-sm validate inputBox">
 												<label data-error="wrong" data-success="right" for="modalLRInput13"></label>
 												</div>
 								
 												<div class="md-form form-sm mb-4">
 												<i class="fas fa-lock prefix"></i>
-												<input type="password" id="modalLRInput14" placeholder="Confirm Your Password" class="form-control form-control-sm validate">
+												<input type="password" id="modalLRInput14" placeholder="Confirm Your Password" class="form-control form-control-sm validate inputBox">
 												<label data-error="wrong" data-success="right" for="modalLRInput14"></label>
 												</div>
 								
 												<div class="text-center form-sm mt-2">
-												<button id="login" class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>
+												<button id="signup" class="btn btn-info join">Sign up <i class="fas fa-sign-in ml-1"></i></button>
 												</div>
 								
 											</div>
 											<!--Footer-->
-											<div id="logfoot" class="modal-footer">
+											<div class="modal-footer logfoot">
 												<div class="options text-right">
 												<p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
 												</div>
-												<button id="but2" type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-outline-info waves-effect ml-auto but2" data-dismiss="modal">Close</button>
 											</div>
 										</div>
 										<!--/.Panel 8-->
@@ -123,7 +123,7 @@
 						  <!--/.Content-->
 						</div>
 					</div>
-					<button id="login" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalLRForm">
+					<button type="button" class="btn btn-primary join" data-toggle="modal" data-target="#modalLRForm">
 						Login/SignUp
 					</button>
 				</div>
@@ -135,22 +135,22 @@
 	<div class="slideshow-container sticky">
 		<div class="mySlides">
 			<div class="numbertext">1 / 4</div>
-			<img id="slide-pic" src="images/Covers/MerchantofVanice.jpg">
+			<img src="images/Covers/MerchantofVanice.jpg">
 			<div class="text"></div>
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">2 / 4</div>
-			<img id="slide-pic" src="images/Covers/ChristmasCarol.jpg">
+			<img src="images/Covers/ChristmasCarol.jpg">
 			<div class="text"></div>
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">3 / 4</div>
-			<img id="slide-pic" src="images/Covers/WutheringHeights.jpg">
+			<img src="images/Covers/WutheringHeights.jpg">
 			<div class="text"></div>
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">4 / 4</div>
-			<img id="slide-pic" src="images/Covers/DorianGray.jpg">
+			<img src="images/Covers/DorianGray.jpg">
 			<div class="text"></div>
 		</div>
 	</div>
@@ -163,110 +163,110 @@
 	</div>
 	<!--/Slideshow-->
 	<!--Body-->
-	<div id="part1" class="main">
+	<div class="main">
 		<div class="container-fluid">
-			<div id="hng" class="centre">Popular Geners</div>
+			<div class="centre hng">Popular Geners</div>
 			<div class="row">
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre part3">
 					<p>Thriller</p>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre part3">
 					<p>Adventure</p>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre part3">
 					<p>Romance</p>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre part3">
 					<p>Tragedy</p>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre part3">
 					<p>Comedy</p>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre part3">
 					<p>Biographies/Memoirs</p>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre part3">
 					<p>Science-Fiction</p>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre part3">
 					<p>Children-Books</p>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 genre part3">
 					<p>Poetry</p>
 				</div>
 			</div>
 		</div>
-		<div id="part2" class="container-fluid">
-			<div id="hng" class="centre">Immortal Pens</div>
+		<div class="container-fluid part2">
+			<div class="centre hng">Immortal Pens</div>
 			<div class="row">
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="William Shakespeare" src="images/Authors/Shakespeare.png">
-					<figcaption id="p2">William Shakespeare</figcaption>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors part3">
+					<img class="author" alt="William Shakespeare" src="images/Authors/Shakespeare.png">
+					<figcaption class="p2">William Shakespeare</figcaption>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="William Wordsworth" src="images/Authors/Wordsworth.jpg">
-					<figcaption id="p2">William Wordsworth</figcaption>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors part3">
+					<img class="author" alt="William Wordsworth" src="images/Authors/Wordsworth.jpg">
+					<figcaption class="p2">William Wordsworth</figcaption>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="Jane Austen" src="images/Authors/Austen.jpg">
-					<figcaption id="p2">Jane Austen</figcaption>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors part3">
+					<img class="author" alt="Jane Austen" src="images/Authors/Austen.jpg">
+					<figcaption class="p2">Jane Austen</figcaption>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="Sir Aurthor Conan Doyle" src="images/Authors/Doyle.jpg">
-					<figcaption id="p2">Sir Aurthor Conan Doyle</figcaption>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors part3">
+					<img class="author" alt="Sir Aurthor Conan Doyle" src="images/Authors/Doyle.jpg">
+					<figcaption class="p2">Sir Aurthor Conan Doyle</figcaption>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="Charles Dickens" src="images/Authors/Dickens.jpg">
-					<figcaption id="p2">Charles Dickens</figcaption>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors part3">
+					<img class="author" alt="Charles Dickens" src="images/Authors/Dickens.jpg">
+					<figcaption class="p2">Charles Dickens</figcaption>
 				</div>
-				<div id="part3" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors">
-					<img id="author" alt="R. L. Stevenson" src="images/Authors/Stevenson.jpg">
-					<figcaption id="p2">R. L. Stevenson</figcaption>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 authors part3">
+					<img class="author" alt="R. L. Stevenson" src="images/Authors/Stevenson.jpg">
+					<figcaption class="p2">R. L. Stevenson</figcaption>
 				</div>
 			</div>
 		</div>
-		<div id="part2" class="container-fluid">
-			<div id="hng" class="centre">Popular Reads</div>
+		<div class="container-fluid part2">
+			<div class="centre hng">Popular Reads</div>
 			<div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4">
 				<div class="col-2 bookBox">
-					<img id="book" alt="Romeo & Juliet" src="images/Books/Romeo&Juliet.jpg">
-					<figcaption id="p3">Romeo & Juiet</figcaption>
+					<img class="book" alt="Romeo & Juliet" src="images/Books/Romeo&Juliet.jpg">
+					<figcaption class="p3">Romeo & Juiet</figcaption>
 				</div>
 				<div class="col-2 bookBox">
-					<img id="book" alt="Oliver Twist" src="images/Books/OliverTwist.jpg">
-					<figcaption id="p3">Oliver Twist</figcaption>
+					<img class="book" alt="Oliver Twist" src="images/Books/OliverTwist.jpg">
+					<figcaption class="p3">Oliver Twist</figcaption>
 				</div>
 				<div class="col-2 bookBox">
-					<img id="book" alt="The Great Gatsby" src="images/Books/GreatGatsby.jpg">
-					<figcaption id="p3">The Great Gatsby</figcaption>
+					<img class="book" alt="The Great Gatsby" src="images/Books/GreatGatsby.jpg">
+					<figcaption class="p3">The Great Gatsby</figcaption>
 				</div>
 				<div class="col-2 bookBox">
-					<img id="book" alt="The Hounds of Baskerville" src="images/Books/HoundOfBaskerville.jpg">
-					<figcaption id="p3">The Hounds of Baskerville</figcaption>
+					<img class="book" alt="The Hounds of Baskerville" src="images/Books/HoundOfBaskerville.jpg">
+					<figcaption class="p3">The Hounds of Baskerville</figcaption>
 				</div>
 				<div class="col-2 bookBox">
-					<img id="book" alt="jane Eyre" src="images/Books/JaneEyre.jpg">
-					<figcaption id="p3">Jane Eyre</figcaption>
+					<img class="book" alt="jane Eyre" src="images/Books/JaneEyre.jpg">
+					<figcaption class="p3">Jane Eyre</figcaption>
 				</div>
 				<div class="col-2 bookBox">
-					<img id="book" alt="The Adventures of Tome Sawyer" src="images/Books/TomSawyer.jpg">
-					<figcaption id="p3">The Adventures of Tome Sawyer</figcaption>
+					<img class="book" alt="The Adventures of Tome Sawyer" src="images/Books/TomSawyer.jpg">
+					<figcaption class="p3">The Adventures of Tome Sawyer</figcaption>
 				</div>
 				<div class="col-2 bookBox">
-					<img id="book" alt="Illiad" src="images/Books/Illiad.jpg">
-					<figcaption id="p3">Illiad</figcaption>
+					<img class="book" alt="Illiad" src="images/Books/Illiad.jpg">
+					<figcaption class="p3">Illiad</figcaption>
 				</div>
 				<div class="col-2 bookBox">
-					<img id="book" alt="Hamlet" src="images/Books/Hamlet.jpg">
-					<figcaption id="p3">Hamlet</figcaption>
+					<img class="book" alt="Hamlet" src="images/Books/Hamlet.jpg">
+					<figcaption class="p3">Hamlet</figcaption>
 				</div>
 				<div class="col-2 bookBox">
-					<img id="book" alt="Frankenstein" src="images/Books/Frankenstein.jpg">
-					<figcaption id="p3">Frankenstein</figcaption>
+					<img class="book" alt="Frankenstein" src="images/Books/Frankenstein.jpg">
+					<figcaption class="p3">Frankenstein</figcaption>
 				</div>
 				<div class="col-2 bookBox">
-					<img id="book" alt="The Three Muskteers" src="images/Books/Muskteers.jpg">
-					<figcaption id="p3">The Three Muskteers</figcaption>
+					<img class="book" alt="The Three Muskteers" src="images/Books/Muskteers.jpg">
+					<figcaption class="p3">The Three Muskteers</figcaption>
 				</div>
 				<div class="col-2 SeeAll">
 					<div>See All</div>
