@@ -1,0 +1,141 @@
+{
+    "Merchant of Venice" : {
+        "author" : "William Shakespeare",
+        "tags" : ["books", "fiction", "comedy", "william shakespeare"],
+        "bookURL" : "/images/Books/TheMerchantOfVenice.jpg",
+        "authorURL" : "/images/Authors/Shakespeare.jpg"
+    },
+
+    "A Christmas Carol" : {
+        "author" : "Charles Dickens",
+        "tags" : ["books", "fiction", "fairy tale", "charles dickens"],
+        "bookURL" : "/images/Books/AChristmasCarol.jpg",
+        "authorURL" : "/images/Authors/Dickens.jpg"
+    },
+
+    "Wuthering Heights" : {
+        "author" : "Emily Brontë",
+        "tags" : ["books", "fiction", "gothic", "romance", "tragedy", "emily brontë"],
+        "bookURL" : "/images/Books/WutheringHeights.jpg",
+        "authorURL" : "/images/Authors/EmilyBronte.jpg"
+    },
+
+    "The Picture of Dorian Grey" : {
+        "author" : "Oscar Wilde",
+        "tags" : ["books", "fiction", "philosophical", "horror", "oscar wilde"],
+        "bookURL" : "/images/Books/DorianGrey.jpg",
+        "authorURL" : "/images/Authors/OscarWilde.jpg"
+    },
+
+    "Romeo and Juliet" : {
+        "author" : "William Shakespeare",
+        "tags" :["books", "romance", "tragedy", "william shakespeare"],
+        "bookURL" : "/images/Books/Romeo&Juliet.jpg",
+        "authorURL" :"/images/Authors/Shakespeare.jpg"
+    },
+
+    "Oliver Twist" : {
+        "author" :"Charles Dickens",
+        "tags" : ["books", "social", "children", "fiction", "coming-of-age", "charles dickens"],
+        "bookURL" :"/images/Books/OliverTwist.jpg",
+        "authorURL" : "/images/Authors/Dickens.jpg"
+    },
+
+    "The Great Gatsby" : {
+        "author" : "F. Scott Fitzgerald",
+        "tags" : ["books", "tragedy", "satire", "f. scott fitzgerald"],
+        "bookURL" : "/images/Books/GreatGatsby.jpg",
+        "authorURL" : "/images/Authors/Fitzgerald.jpg"
+    }, 
+    
+    "Hounds of Baskerville" : {
+        "author" : "Sir Aurthor Conan Doyle",
+        "tags" : ["books", "thriller", "fiction", "detective", "mystery", "sir aurthor conan doyle"],
+        "bookURL" : "/images/Books/HoundOfBaskerville.jpg",
+        "authorURL" : "/images/Authors/Doyle.jpg"
+    },
+
+    "Jane Eyre" : {
+        "author" : "Charlotte Brontë",
+        "tags" : ["books", "romance", "social", "bildungsroman", "charlotte brontë"],
+        "bookURL" : "/images/Books/JaneEyre.jpg",
+        "authorURL" : "/images/Authors/CharlotteBronte.jpg"
+    },
+
+    "The Adventures of Tom Sawyer" : {
+        "author" : "Mark Twain",
+        "tags" : ["books", "fiction", "children", "bildungsroman", "satire", "mark twain"],
+        "bookURL" : "/images/Books/TomSawyer.jpg",
+        "authorURL" : "/images/Authors/MarkTwain.jpg"
+    },
+
+    "The Illiad" : {
+        "author" : "Homer",
+        "tags" : ["books", "poetry", "epic", "history", "mythology", "homer"],
+        "bookURL" : "/images/Books/Illiad.jpg",
+        "authorURL" : "/images/Authors/Homer.jpg"
+    },
+
+    "Hamlet" : {
+        "author" : "William Shakespeare",
+        "tags" : ["books", "tragedy", "historical fiction", "william shakespeare"],
+        "bookURL" : "/images/Books/Hamlet.jpg",
+        "authorURL" : "/images/Authors/Shakespeare.jpg"
+    },
+
+    "Frankenstein" : {
+        "author" : "Mary Shelly",
+        "tags" : ["books", "science-fiction", "horror", "gothic", "mary shelly"],
+        "bookURL" : "/images/Books/Frankenstein.jpg",
+        "authorURL" : "/images/Authors/MaryShelly.jpg"
+    },  
+
+    "The Three Muskteers" : {
+        "author" : "Alexander Dumas",
+        "tags" : ["books", "adventure", "historical fiction", "alexander dumas"],
+        "bookURL" : "/images/Books/Muskteers.jpg",
+        "authorURL" : "/images/Authors/AlexanderDumas.jpg"
+    },
+
+    "Pride and Prejudice" : {
+        "author" : "Jane Austen",
+        "tags" : ["books", "romance", "satire", "jane austen"],
+        "bookURL" : "/images/Books/PrideAndPrejudice.jpg",
+        "authorURL" : "/images/Authors/Austen.jpg"
+    },
+    
+    "Paradise Lost" : {
+        "author" : "John Milton",
+        "tags" : ["books", "poetry", "mythology", "epic", "john milton"],
+        "bookURL" : "/images/Books/ParadiseLost.jpg",
+        "authorURL" : "/images/Authors/Milton.jpg"
+    },
+
+    "The Strange Case of Dr Jekyll and Mr Hyde" : {
+        "author" : "R. L. Stevenson",
+        "tags" : ["books", "horror", "psychological thriller", "thriller", "mystery", "science-fiction", "r. l. stevenson"],
+        "bookURL" : "/images/Books/Hyde.jpg",
+        "authorURL" : "/images/Authors/Stevenson.jpg"
+    },
+
+    "Treasure Island" : {
+        "author":"R. L. Stevenson",
+        "tags" : ["books", "adventure", "historical fiction", "young adult", "R. L. Stevenson"],
+        "bookURL" : "/images/Books/TreasureIsland.jpg",
+        "authorURL" : "/images/Authors/Stevenson.jpg"
+    },
+
+    "The Diary of a Young Girl" : {
+        "author" : "Anne Frank",
+        "tags" : ["books", "biography", "coming of age", "anne frank"],
+        "bookURL" : "/images/Books/Diary.jpg",
+        "authorURL" : "/images/Authors/AnneFrank.jpg"
+    },
+    
+    "The Call of the Wild" : {
+        "author" : "Jack London",
+        "tags" : ["books", "adventure", "fiction","jack london"],
+        "bookURL" : "/images/Books/CallOfWild.jpg",
+        "authorURL" : "/images/Authors/JackLondon.jpg"
+    }
+}

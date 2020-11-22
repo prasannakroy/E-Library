@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<title>The Dusty Shelf</title>
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<nav id="header-nav" class="navbar">
+			<div class="container">
+				<div class="row">
+					<a href="dashboard" class="d-none d-lg-block">
+						<div id="logo-img"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="dashboard">
+							<h1 id="heads">The Dusty Shelf</h1>
+						</a>
+					</div>
+				</div>
+				<div class="navbar">
+					<% if(name) {%>
+					<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog cascading-modal" role="document">
+						  <!--Content-->
+							<div class="modal-content lvl1">
+								<!--Modal cascading tabs-->
+								<div class="modal-c-tabs">
+						
+									<!-- Nav tabs -->
+
+						
+								<!-- Tab panels -->
+									<div class="tab-content">
+										<!--Panel 7-->
+										<div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+							
+										<!--Body-->
+											<div id="modalBody" class="modal-body mb-1">
+												<div class="text-center mt-2">
+												<!-- <button id="/auth/logut" class="btn btn-info join">LogOut <i class="fas fa-sign-in ml-1"></i></button> -->
+												<!-- Logout button -->
+												<button id="profiel" type="button" onclick="document.location='/layouts/profile.ejs'" class="btn btn-outline-info waves-effect ml-auto but2, fas fa-sign-in ml-1">
+													View Profile
+												</button>	
+											</br>
+												<button id="logout" type="button" onclick="document.location='/auth/logout'" class="btn btn-outline-info waves-effect ml-auto but2, fas fa-sign-in ml-1">
+													Logout
+												</button>	
+											</div>
+											</div>
+											<!--Footer-->
+											<div class="modal-footer logfoot">
+												<button type="button" class="btn btn-outline-info waves-effect ml-auto but2" data-dismiss="modal">Close</button>
+											</div>
+							
+										</div>
+										<!--/.Panel 7-->
+							
+										<!--Panel 8-->
+										<div class="tab-pane fade" id="panel8" role="tabpanel">
+										</div>
+										<!--/.Panel 8-->
+									</div>
+								</div>
+							</div>
+						  <!--/.Content-->
+						</div>
+					</div>
+					<button type="button" class="btn btn-primary join" data-toggle="modal" data-target="#modalLRForm">
+						Hello, <%= name %>
+					</button>
+				<% } else { %>
+					<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog cascading-modal" role="document">
+						  <!--Content-->
+							<div class="modal-content lvl1">
+								<!--Modal cascading tabs-->
+								<div class="modal-c-tabs">
+						
+									<!-- Nav tabs -->
+									<ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+										<li class="nav-item lvl2">
+											<a class="nav-link active modalLogin" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>Login</a>
+										</li>
+										<li class="nav-item lvl2">
+											<a class="nav-link modalLogin" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>Register</a>
+										</li>
+									</ul>
+						
+								<!-- Tab panels -->
+									<div class="tab-content">
+										<!--Panel 7-->
+										<div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+							
+										<!--Body-->
+											<div id="modalBody" class="modal-body mb-1">
+												<div class="md-form form-sm mb-5">
+													<i class="fas fa-envelope prefix"></i>
+													<input type="email" id="modalLRInput10" placeholder="Enter Email" class="form-control form-control-sm validate inputBox">
+													<label data-error="wrong" data-success="right" for="modalLRInput10"></label>
+												</div>
+								
+												<div class="md-form form-sm mb-4">
+													<i class="fas fa-lock prefix"></i>
+													<input type="password" id="modalLRInput11" placeholder="Enter Password" class="form-control form-control-sm validate inputBox">
+													<label data-error="wrong" data-success="right" for="modalLRInput11"></label>
+												</div>
+												<div class="text-center mt-2">
+												<button id="login" class="btn btn-info join">Log in <i class="fas fa-sign-in ml-1"></i></button>
+												<div class="break">
+													<div class="but2">Or</div>
+												</div>
+												<button id="login" type="button" onclick="document.location='/auth/google'" class="btn btn-outline-info waves-effect ml-auto join fas fa-sign-in ml-1">
+													Login with Google
+												</button>	
+												</div>
+											</div>
+											<!--Footer-->
+											<div class="modal-footer logfoot">
+												<div class="options text-center text-md-right mt-1">
+												<p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+												<p>Forgot <a href="#" class="blue-text">Password?</a></p>
+												</div>
+												<button type="button" class="btn btn-outline-info waves-effect ml-auto but2" data-dismiss="modal">Close</button>
+											</div>
+							
+										</div>
+										<!--/.Panel 7-->
+							
+										<!--Panel 8-->
+										<div class="tab-pane fade" id="panel8" role="tabpanel">
+							
+										<!--Body-->
+											<div id="modalBody2" class="modal-body mb-1">
+												<div class="md-form form-sm mb-5">
+													<i class="fas fa-envelope prefix"></i>
+													<input type="email" id="modalLRInput12" placeholder="Enter Your Email" class="form-control form-control-sm validate inputBox">
+													<label data-error="wrong" data-success="right" for="modalLRInput12"></label>
+												</div>
+								
+												<div class="md-form form-sm mb-5">
+												<i class="fas fa-lock prefix"></i>
+												<input type="password" id="modalLRInput13" placeholder="Enter Your Password" class="form-control form-control-sm validate inputBox">
+												<label data-error="wrong" data-success="right" for="modalLRInput13"></label>
+												</div>
+								
+												<div class="md-form form-sm mb-4">
+													<i class="fas fa-lock prefix"></i>
+													<input type="password" id="modalLRInput14" placeholder="Confirm Your Password" class="form-control form-control-sm validate inputBox">
+													<label data-error="wrong" data-success="right" for="modalLRInput14"></label>
+												</div>
+								
+												<div class="text-center form-sm mt-2">
+												<button id="signup" class="btn btn-info join">Sign up <i class="fas fa-sign-in ml-1"></i></button>
+												<div class="break">
+													<div class="but2">Or</div>
+												</div>
+												<button id="login" type="button" onclick="document.location='/auth/google'" class="btn btn-outline-info waves-effect ml-auto join fas fa-sign-in ml-1">
+													Singup with Google
+												</button>	
+												</div>
+								
+											</div>
+											<!--Footer-->
+											<div class="modal-footer logfoot">
+												<div class="options text-right">
+												<p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+												</div>
+												<button type="button" class="btn btn-outline-info waves-effect ml-auto but2" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+										<!--/.Panel 8-->
+									</div>
+								</div>
+							</div>
+						  <!--/.Content-->
+						</div>
+					</div>
+					<button type="button" class="btn btn-primary join" data-toggle="modal" data-target="#modalLRForm">
+						Login/SignUp
+					</button>
+				<% } %>
+				</div>
+			</div>
+		</nav> 
+	</header>
+	<!-- /Header -->
+	<!--Slideshow-->
+	<div class="centre hng"><%= type %></div>
+	<div>
+		<div class="container-fluid part2">
+			<div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4">
+				<% Object.keys(books).map((key)=>{%>
+					<div class="col-2 bookBox">
+						<img class="book" alt="<%= key %>" src="<%= books[key].bookURL%>">
+						<figcaption class="p3"><%= key %></figcaption>
+					</div>		
+				<% }) %>
+			</div>
+		</div>
+	</div>
+	<!--/Body-->
+	<!-- Footer-->
+	<footer class="main">
+		<h3>Contact Us</h3>
+		<p>Prasanna Kumar : **********</p>
+		<p>Amit Kumar : **********</p>
+		<p>Jatin Khandual : ***********</p>
+	</footer>
+	<!--/Footer-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
